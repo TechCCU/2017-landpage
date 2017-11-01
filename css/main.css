@@ -1,0 +1,15 @@
+html,body {
+  background: #fafafa;
+  font-family:GillSans,Calibri,Trebuchet,"Heiti TC","WenQuanYi Zen Hei","Microsoft JhengHei",sans-serif;
+}
+.nav-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+hr {
+  margin:5rem 0;
+  border-top:1px solid #e0e0e0
+}
+
