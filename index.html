@@ -18,7 +18,7 @@
 				<nav class="navbar nav-fixed-top" style="background-image: linear-gradient( to bottom, black, #363636)">
 					<div class="container">
 						<div class="navbar-brand">
-							<a id="logo" class="navbar-item is-size-3" href="#logo">TechCCU</a>
+							<a class="navbar-item is-size-3" href="#">TechCCU</a>
 							<button class="button navbar-burger burger" data-target="navbarMenu">
 								<span></span>
 								<span></span>
@@ -63,15 +63,24 @@
 			</div>
 			<div class="hero-footer">
 				<div class="container has-text-centered">
-					<h1 class="title">
-						IRC / Slack / Facebook
-					</h1>
+					<h5 class="title">
+						<a href="https://webchat.freenode.net?channels=TechCCU"
+							target="_blank"
+							class="tooltipped"
+							data-position="top"
+							data-delay="100"
+							data-tooltip="freenode#TechCCU"
+						>IRC | </a>
+						<a href="https://techccu.slack.com" target="_blank">Slack | </a>
+						<a href="https://www.facebook.com/techccu" target="_blank"> Facebook</a>
+					</h5>
 				</div>
 			</div>
+			<div id="origin"></div>
 		</section>
 
 		<section class="container">
-			<div class="has-text-centered column is-8 is-offset-2" id="origin">
+			<div class="has-text-centered column is-8 is-offset-2">
 				<h2 class="title">
 					緣起
 					<p class="inner is-size-5">Origin</p>
@@ -85,10 +94,10 @@
 			</div>
 		</section>
 
-		<hr class="is-8"/>
+		<hr id="location">
    
 		<section class="container">
-			<div class="has-text-centered column is-8 is-offset-2" id="location">
+			<div class="has-text-centered column is-8 is-offset-2">
 				<h2 class="title">
 					地點
 					<p class="inner is-size-5">Location</p>
@@ -99,10 +108,10 @@
 			</div>
 		</section>
 
-		<hr class="is-8"/>
+		<hr id="speakers"/>
 
 		<section class="container">
-			<div class="has-text-centered column is-8 is-offset-2" id="speakers">
+			<div class="has-text-centered column is-8 is-offset-2">
 				<div class="columns">
 					<div class="column is-12">
 						<h2 class="title">
@@ -244,10 +253,10 @@
 			</div>
 		</section>
 
-		<hr class="is-8"/>
+		<hr id="schedule"/>
 
 		<section class="container">
-			<div class="has-text-centered column is-8 is-offset-2" id="schedule">
+			<div class="has-text-centered column is-8 is-offset-2">
 				<div class="columns">
 					<div class="column is-12">
 						<h2 class="title">
@@ -259,10 +268,10 @@
 			</div>
 		<sectioin>
 
-		<hr class="is-8"/>
+		<hr id="staffs"/>
 
 		<section class="container">
-			<div class="has-text-centered column is-8 is-offset-2" id="staffs">
+			<div class="has-text-centered column is-8 is-offset-2">
 				<div class="columns">
 					<div class="column is-12">
 						<h2 class="title">
@@ -296,6 +305,7 @@
 				</div>
 			</div>
 		</section>
+
 		<footer class="container">
 			<div class="content has-text-centered">
 				<hr style="margin: 2.5rem 0;">
